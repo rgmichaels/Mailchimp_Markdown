@@ -28,7 +28,7 @@ File.open("supportingfiles/markupexample.txt").each do | line |
   def anchors (line)
       linktext = line.split("[").last.split("]").first
       linkurl = line.split("(").last.split(")").first
-      markdownlink = "<a href=\"" + linkurl + ">" + linktext + "</a>"
+      markdownlink = "<a href=\"" + linkurl + "\">" + linktext + "\</a>"
       puts markdownlink
       File.write("Output/markdownoutput.txt", markdownlink + "\n", mode:"a")
   end
