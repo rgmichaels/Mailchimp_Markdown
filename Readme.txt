@@ -5,17 +5,14 @@ There are edge cases that would need to be handled, especially in the anchor tag
 
 This was made with Ruby 2.7 (x64) but it's pretty basic and should run on all versions.
 
-It should be able to run via command prompt, however I have been running through Rubymine.
-The file to execute is Main.rb.
-
 It takes an input file (SupportingFiles/markdownexample.txt)
 and outputs to screen and Output/markdownoutput.txt.
 
 A basic error log is written to Logs/MailchimpMarkdown.log.
 
-Ruby Installation Instructions:
+Ruby Installation / execution instructions:
 
-Download and install Ruby 2.7.x for Windows.  This download is the language
+Download and install Ruby 2.7.x for Windows.  This is the language
 interpreter for Ruby applications.  A reboot may be required if Ruby isn't found.
 
     https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.5-1/rubyinstaller-devkit-2.7.5-1-x64.exe
@@ -50,7 +47,6 @@ If you wish to change the input file, you can modify:
 # Needs more error checking overall
 # Needs protection against output and log file sizes.  Suggest new files each day with date stamp.
 # For a test I would create a consistent sample input file and simply check (assert) the contents of that file
-# Ideally I'd likely use the redcarpet gem which handles the real solution
 # Additional tests:
 #   Large file handling, find breakpoint.
 #   Large file handling, memory usage.
