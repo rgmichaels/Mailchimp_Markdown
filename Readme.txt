@@ -16,7 +16,7 @@ A basic error log is written to Logs/MailchimpMarkdown.log.
 Ruby Installation Instructions:
 
 Download and install Ruby 2.7.x for Windows.  This download is the language
-interpreter for Ruby applications.
+interpreter for Ruby applications.  A reboot may be required if Ruby isn't found.
 
     https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.5-1/rubyinstaller-devkit-2.7.5-1-x64.exe
 
