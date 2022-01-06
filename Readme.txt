@@ -10,7 +10,7 @@ and outputs to screen and Output/markdownoutput.txt.
 
 A basic error log is written to Logs/MailchimpMarkdown.log.
 
-Ruby Installation / execution instructions:
+Ruby Installation / execution instructions for Windows:
 
 Download and install Ruby 2.7.x for Windows.  This is the language
 interpreter for Ruby applications.  A reboot may be required if Ruby isn't found.
